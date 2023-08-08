@@ -1,10 +1,14 @@
+import Footer from "./components/footer";
 import Header from "./components/header";
+import Waitlist from "./components/waitlist";
 
 const App = () => {
   return (
-    <div>
+    <main>
       <Header />
-    </div>
+      <Waitlist/>
+      <Footer />
+    </main>
   );
 };
 
