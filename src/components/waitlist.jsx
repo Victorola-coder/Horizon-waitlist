@@ -50,7 +50,7 @@ const Waitlist = () => {
             value={name}
             placeholder="Micheal Jackson"
             onChange={(e) => setName(e.target.value)}
-            className="w-full text-black font-medium outline-none border border-gray-300 rounded-md p-2"
+            className="w-full text-black font-medium outline-none border border-gray-300 rounded-md p-3"
             // required
           />
         </div>
@@ -64,7 +64,7 @@ const Waitlist = () => {
             value={email}
             placeholder="michealjackson@gmail.com"
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full text-black font-medium outline-none border border-gray-300 rounded-md p-2"
+            className="w-full text-black font-medium outline-none border border-gray-300 rounded-md p-3"
             // required
           />
         </div>
@@ -78,7 +78,7 @@ const Waitlist = () => {
             value={phone}
             // onChange={(e) => setPhone(e.target.value)}
             onChange={phoneOnchange}
-            className="w-full text-black font-medium outline-none border-gray-300 rounded-md p-2"
+            className="w-full text-black font-medium outline-none border-gray-300 rounded-md p-3"
           />
         </div>
         <motion.button
