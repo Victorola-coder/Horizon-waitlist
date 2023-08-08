@@ -70,7 +70,7 @@ const Waitlist = () => {
         </div>
         <div>
           <label htmlFor="phone" className="block font-medium mb-1">
-            Phone Number
+            WhatsApp Number
           </label>
           <input
             type="tel"
