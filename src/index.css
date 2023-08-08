@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* outline: 1px solid red; */
+}
+
+body, html {
+  background-color: #010e21;
+  color: #fefefe;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  /* filter: blur(3px); */
+}
+
+
+body::-webkit-scrollbar {
+  @apply w-2 bg-transparent;
+}
+
+body::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-blue-500;
+}
+
+body::-webkit-scrollbar-track-piece {
+  @apply bg-transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply transition-all duration-500 bg-red-200 rounded-full hover:bg-red-100;
+}
