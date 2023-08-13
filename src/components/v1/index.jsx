@@ -1,13 +1,13 @@
-import Header from "../header"
+import Header from "./header";
 
 const Index = () => {
   return (
-    <div>
+    <div className={`h-screen w-screen bg-[black]`}>
       <main>
-        <Header/>
+        <Header />
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
