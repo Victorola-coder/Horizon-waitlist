@@ -8,7 +8,7 @@ export default function Header() {
         <nav
           className={`md:px-[100px] md:py-5 px-[30px] py-3 bg-gray-700 flex items-center justify-between`}
         >
-          <h2 className={`text-3xl font-semibold`}>Horizon</h2>
+          <h2 className={`text-3xl font-semibold`}>TrixNG</h2>
           <div>
             <ul>
               <li className="text-base text-gray-400 font-medium">
